@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/dua"
+
+
+    >
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:gravity="center"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/SubhanAllah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Subhan Allah"
+        android:background="@color/purple_200"
+        android:layout_marginTop="103dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/Alhamdulillah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Alhamdulillah"
+        android:background="#06eaab"
+        />
+
+    <Button
+        android:id="@+id/AllahuAkber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Allahu Akber"
+        android:background="#b9faf8"
+        />
+
+    <Button
+        android:id="@+id/Count"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Count"
+        android:background="#16985a"
+        />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sub one"
+        android:background="#ced002"
+
+
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Reset"
+        android:background="#e54646"
+
+        />
+
+
+</LinearLayout>
